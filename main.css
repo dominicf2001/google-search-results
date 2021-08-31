@@ -1,6 +1,6 @@
 #logo-search-div {
     display: flex;
-    align-items: center;
+    align-items: center; 
 }
 
 #google-logo-div {
@@ -16,11 +16,13 @@
 #search-bar-div {
     display: flex;
     align-items: center;
-    width: 65%;
+    flex-direction: row-reverse;
+    overflow: hidden;
+    width: 70%;
     height: 3em;
     margin: 1em;
     border-radius: 2em;
-    box-shadow: 0px 2px 5px rgba(59, 59, 59, 0.418);
+    box-shadow: 0px 1px 4px rgba(59, 59, 59, 0.418);
 }
 
 #search-bar-div:hover {
@@ -28,23 +30,30 @@
 }
 
 #search-bar {
-    width: 85%;
-    border: none;
+    width: 80%;
     font-size: 1.2em;
+    border: none;
 }
 
 #search-bar:focus-visible {
     outline: none;
 }
 
-#search-image {
+#search-button {
     margin-right: 1em;
-    border: none;
+    background: none;
+}
+
+#search-image {
     opacity: 50%;
 }
 
-#search-button {
-    margin-left: 1em;
-    border: none;
+
+#mic-button {
+    margin-right: 1em;
     background: none;
+}
+
+#mic-image {
+    opacity: 50%;
 }
