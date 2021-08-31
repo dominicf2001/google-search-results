@@ -1,0 +1,36 @@
+#search-bar-div {
+    display: flex;
+    align-items: center;
+    width: 65%;
+    height: 3em;
+    margin: auto;
+    margin-top: 1.25em;
+    border-radius: 2em;
+    box-shadow: 0px 2px 5px rgba(59, 59, 59, 0.418);
+}
+
+#search-bar-div:hover {
+    box-shadow: 0px 2px 6px rgba(46, 46, 46, 0.521);
+}
+
+#search-bar {
+    width: 85%;
+    border: none;
+    font-size: 1.2em;
+}
+
+#search-bar:focus-visible {
+    outline: none;
+}
+
+#search-image {
+    margin-right: 1em;
+    border: none;
+    opacity: 50%;
+}
+
+#search-button {
+    margin-left: 1em;
+    border: none;
+    background: none;
+}
