@@ -61,3 +61,22 @@
 #mic-image {
     opacity: 50%;
 }
+
+#header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    margin: 0 .5em 0;
+}
+
+.nav-link-text {
+    opacity: 70%;
+}
+
+.nav-img {
+    opacity: 70%;  
+}
