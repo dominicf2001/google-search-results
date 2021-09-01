@@ -115,7 +115,7 @@ background: rgb(216, 216, 216);
 }
 
 main {
-    width: 80%;
+    width: 55%;
     margin-left: 195px;
 }
 
@@ -152,6 +152,7 @@ main {
     width: 18px;
     vertical-align: bottom;
     padding-left: 10px;
+    opacity: 75%;
 }
 
 .result-heading {
