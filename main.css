@@ -115,7 +115,7 @@ background: rgb(216, 216, 216);
 }
 
 main {
-    width: 55%;
+    width: 650px;
     margin-left: 195px;
 }
 
@@ -162,4 +162,41 @@ main {
 
 .result-description {
     opacity: 75%;
+}
+
+#also-ask {
+    margin-top: 3em;
+}
+
+.also-ask-heading {
+    font-size: 1.5em;
+    margin-bottom: .5em;
+}
+
+.dropdown-heading {
+    font-size: 1.1em;
+    margin-top: 1px;
+}
+
+.dropdown-wrapper {
+    padding: .8em 0 .8em;
+    border-top: solid rgba(0, 0, 0, 0.138) 1px;
+    border-bottom: solid rgba(0, 0, 0, 0.138) 1px;
+}
+
+.dropdown-div {
+    margin-top: 1em;
+}
+
+.dropdown-desc {
+    font-size: 1.1em;
+}
+
+.sub-date {
+    font-size: .75em;
+    opacity: 75%;
+}
+
+.search-for {
+    margin-top: 2em;
 }
