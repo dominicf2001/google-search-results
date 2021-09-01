@@ -96,12 +96,12 @@ background: rgb(216, 216, 216);
 
 .nav-link-list-item {
     margin: 0 .5em 0;
+    opacity: 70%;
 }
 
 .nav-link {
     display: flex;
     align-items: center;
-    opacity: 70%;
 }
 
 #nav-link-tools {
@@ -112,4 +112,53 @@ background: rgb(216, 216, 216);
 
 #placeholder-img {
     visibility: hidden;
+}
+
+main {
+    width: 80%;
+    margin-left: 195px;
+}
+
+#results-quantity {
+    opacity: 60%;
+    margin-top: 1em;
+}
+
+.result {
+    margin-top: 1.25em;
+}
+
+.result-link {
+    display: inline-block;
+}
+
+.result-source-div {
+    margin-bottom: .5em;
+    color: black;
+}
+
+.result-source {
+    display: inline-block;
+    padding-bottom: 2px;
+}
+
+.result-span {
+    display: inline-block;
+    opacity: 75%;
+    padding-bottom: 2px;
+}
+
+.results-img {
+    width: 18px;
+    vertical-align: bottom;
+    padding-left: 10px;
+}
+
+.result-heading {
+    font-size: 1.5em;
+    margin-bottom: .5em;
+}
+
+.result-description {
+    opacity: 75%;
 }
