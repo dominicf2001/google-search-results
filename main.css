@@ -233,22 +233,35 @@ strong {
 
 #videos {
     margin-top: 3em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
-#videos > div:first-child {
+#videos > div:first-child, .video {
     padding-bottom: .5em;
     border-bottom: solid rgba(0, 0, 0, 0.138) 1px;
     margin-bottom: .5em;
+}
+
+.video:last-of-type {
+    padding-bottom: 2.5em;
 }
 
 #videos-header {
     display: inline-block;
     font-size: 1.5em;
     vertical-align: middle;
+    margin-right: 1em;
 }
 
 #videos-img {
     vertical-align: middle;
+    margin-right: 1em;
+}
+
+#videos > div:first-child .results-img{
+    vertical-align: top;
 }
 
 .video-player {
@@ -284,4 +297,21 @@ strong {
 .channel-name {
     opacity: 75%;
     margin-left: 1.5ch;
+}
+
+#video-feedback {
+    color: rgba(0, 0, 0, 0.637);
+    font-size: .8em;
+    padding-left: 20px;
+}
+
+#videos-view-all {
+    position: absolute;
+    bottom: -.75em;
+    align-self: center;
+    border: solid rgba(0, 0, 0, 0.151) 1px;
+    background: white;
+    padding: .75em 8em .75em;
+    border-radius: 3em;
+    
 }
