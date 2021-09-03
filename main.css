@@ -306,12 +306,25 @@ strong {
 }
 
 #videos-view-all {
+    width: 25em;
     position: absolute;
     bottom: -.75em;
     align-self: center;
     border: solid rgba(0, 0, 0, 0.151) 1px;
     background: white;
-    padding: .75em 8em .75em;
+    padding: .5em 1em .5em;
     border-radius: 3em;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#videos-view-all:hover {
+    background: rgb(243, 243, 243);
+}
+
+#view-all-text {
+    display: inline-block;
+    text-align: center;
+    flex-grow: 2;
 }
