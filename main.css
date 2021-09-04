@@ -424,11 +424,12 @@ strong {
     margin-bottom: 2em;
 }
 
-#page-links > a {
+#page-links > li {
+    display: inline-block;
     margin: 0 .3em 0;
 }
 
-#page-links > a:first-child {
+#page-links > li:first-child {
     color: black !important;
 }
 
