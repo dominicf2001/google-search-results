@@ -349,6 +349,8 @@ strong {
     display: flex;
     width: 100%;
     margin-bottom: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .related-result-img {
@@ -374,4 +376,16 @@ strong {
 
 #related > details:last-of-type {
     padding-bottom: 1.5em;
+}
+
+.see-more {
+    width: 15em;
+    border: solid rgba(0, 0, 0, 0.151) 1px;
+    background: white;
+    padding: .25em 1em .25em;
+    border-radius: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
 }
