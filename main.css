@@ -378,10 +378,38 @@ strong {
     padding-bottom: 1.5em;
 }
 
+#related-searches {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.related-search {
+    display: flex;
+    align-items: center;
+    padding: .5em 2em .5em;
+    border: rgba(255, 255, 255, 0) solid 1px;
+    border-radius: 6em;
+    margin: 1em .25em 0em;
+    background-color: rgb(235, 235, 235);
+}
+
+.related-search-title {
+    display: block;
+    margin-left: auto;
+    width: 80%;
+    font-weight: bold;
+    font-size: 1.10em;
+}
+
+.related-search-img {
+    opacity: 60%;
+}
+
 .see-more {
     width: 15em;
     border: solid rgba(0, 0, 0, 0.151) 1px;
-    background: white;
+    background: rgb(255, 255, 255);
     padding: .25em 1em .25em;
     border-radius: 3em;
     display: flex;
