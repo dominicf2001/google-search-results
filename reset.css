@@ -46,3 +46,6 @@ a {
     text-decoration: none;
 }
 
+a:visited {
+	color: rgb(58, 58, 204);
+}
